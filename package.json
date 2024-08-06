@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
@@ -12,7 +13,8 @@
   "author": "Oleksandr Zhunkin <godinsighted@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "nanoid": "^5.0.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
